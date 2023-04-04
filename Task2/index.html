@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature-Coverter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="container">
+        <div class="navigation">
+          <div class="heading">
+            <h1>TEMPERATURE CONVERTION</h1>
+          </div>
+        </div>
+        <div class="main">
+          <div class="form">
+            <h2>Degree to convert</h2>
+            <input type="number" placeholder="Enter Temperature" id="input" />
+
+            <select name="degree" id="degree">
+              <option value="">Choose the unit</option>
+              <option value="Fahrenheit">Fahrenheit</option>
+              <option value="Celcius">Celcius</option>
+            </select>
+
+            <div class="button">
+              <input
+                type="button"
+                id="button"
+                onclick="convertTemp();"
+                value="Convert"
+              />
+            </div>
+            <h2>Result</h2>
+            <input type="text" placeholder="answer" id="output" readonly />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
