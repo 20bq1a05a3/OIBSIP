@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+}
+ul
+{
+    list-style: none;
+}
+
+.active
+{
+    color:black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* nav bar*/
+.navbar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px;
+    color: white;
+}
+.nav-links
+{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+/* header */
+header
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/backg.jpg');
+    background-position: bottom;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: aliceblue;
+}
+
+.header-content
+{
+    margin-bottom: 150px;
+    color:black;
+    text-align: center;
+}
+.header-content h2
+{
+    font-size: 8vmin;
+}
+.header-content h1{
+    font-size: 6vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn
+{
+    background: #fc03b2;
+    padding: 8px 15px;
+    border-radius: 30px;
+    color: white;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.row .col 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+.events .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 4vmin;
+    color: #49497e;
+    margin: 20px auto; 
+}
+p{
+    color: black;
+    padding: 0px 40px;
+}
+.events .ctn{
+    margin-top: 30px;
+}
+.tour .row .col{
+    width: 50%;
+}
+.tour image-pics{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-pics img{
+    width: 300px;
+}
+.footer p{
+    color: white;
+    margin: 20px auto;
+}
+.footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #8b8bd3;
+    text-align: center;
+}
